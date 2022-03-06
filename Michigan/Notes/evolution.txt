@@ -1,0 +1,106 @@
+The Evolution of HTML 
+
+
+WHAT IS HTML?
+
+created 1990 
+
+
+HTML stands for Hypertext Markup Language
+
+Markup languages are not the same as programming languages, they use tags to annotate documents. 
+
+Tags indicate where headings, images, list, links, line breaks, and other components should go.
+
+Syntax (elements & attributes) and Semantics (Meaning).
+
+
+
+
+Mosaic first graphical browser 1993 - opposition in the form of Netscape (94') and Internet Explorer (95') and others "browser wars"
+(best viewed on)
+
+Standardized 
+
+Internet Engineering Task Force -IETF 
+World Wide Web Consortium - W3C
+Web Accessibility Initiave - WAI
+
+
+- 2005 Standard Practice to Use HTML & CSS files 
+
+- HTML5 is a cooperation between W3C and The Web Hypertext Application Technology Working Group (WHATWG)
+
+
+Established Guidelines 
+
+Current features should be based on HTML CSS the DOM  and JavaScript and beyond
+
+Reduce need for external plugins (Flash)
+
+And Establish consistency across devices 
+
+
+
+
+
+
+HOW IT WORKS 
+
+Servers
+	Machines that hold shared resources
+	Always connected to network
+
+Clients 
+	devices for personal use (laptops tablets phones etc)
+
+
+
+
+
+The Internet
+	LAN - Local Area Network  "Office__Building"
+	WAN - Wide Area Network  "University__Buildings"
+
+Request Response Cycle 
+	
+ What happens when you type something in: You the (Client) request a page and a Server responds with appropriate files. 
+
+ Multiple Rounds of communication between client and server
+
+URLS
+
+Every URL has 3 parts 
+  Protocol - how to connect
+  Domain - Server
+  Document - specific file(s)
+
+Protocols 
+ HTTP: Hypertext Transfer Protocol
+ HTTPS: Secure Hypertext
+ FTP: Any file
+
+
+Domain Names
+  identifies the entity you want to connect 
+  Each has different top level domain - hierarchy if you will 
+  Determined by Internet Corporation for Assigned Names and Numbers(ICAAN).
+
+
+IP Addresses
+ Internet Protocol v6 (IPv6) is the communication protocol that identifies computers on networks
+ Every computer/device has a unique IP address
+ x one of 16 values combinations 
+
+Document 
+ URLS can specify a specific document 
+ if no document is specified then it will be returned 
+
+ Once IP Address is determined, the browser creates an HTTP request 
+ 	(headers, cookies, form data etc)
+
+The Response
+ The server returns files, not "web pages"
+ Browser decides what to do with files
+
+ If server cant fulfill the request it will send back files with error codes 404(possible typo), 500(server is down), etc
